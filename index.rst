@@ -91,13 +91,15 @@ Configuring Qserv
   - configuring CSS on Master
   - configuring MySQL in worker nodes - adding the database name to this table:
 
-  ..code: sql
+  .. code-block:: sql
 
     SELECT * FROM qservw_worker.Dbs;
+
+  .. table:: Result set
+
     +------------------------+
     | db                     |
-    +------------------------+
-    .                        .
+    +========================+
     | sdss_stripe82_00       |
     +------------------------+
 
