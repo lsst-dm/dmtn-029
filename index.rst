@@ -48,4 +48,7 @@
 
    **This technote is not yet published.**
 
+The Scope of the Document
+=========================
+
    The document explains a procedure for loading the SDSS/Stripe82 catalogs into PDAC Qserv. The catalogs were produced in a course of the LSST Summer 2013 Data Challenge effort.
