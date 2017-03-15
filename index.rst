@@ -51,20 +51,32 @@
 The Scope of the Document
 =========================
 
-  The note documents a procedure of loading the SDSS/Stripe82 catalogs into PDAC Qserv.
-  The catalogs were produced in a course of the LSST Summer 2013 Data Challenge effort.
+  The note documents a parallel procedure and tools developed for loading the SDSS/Stripe82 catalogs
+  into PDAC Qserv. The catalogs were produced in a course of the LSST Summer 2013 Data Challenge effort
+  which is covered in details at:
+
+  - https://dev.lsstcorp.org/trac/wiki/Summer2013
+  - https://confluence.lsstcorp.org/display/DM/Properties+of+the+2013+SDSS+Stripe+82+reprocessing
+
+  Note that the current document won't provide any further explanation on how the catalogs were put together
+  and prepared for the loading beyond the bare minimum info which is related to a location and a general
+  structure of the input files used by the loading tools. The catalog preparation topics are fully covered
+  in the following JIRA tickets:
+
+  - https://jira.lsstcorp.org/browse/DM-6905 - Locate the test dataset for PDAC
+  - https://jira.lsstcorp.org/browse/DM-7007 - Investigate coverage of S13 databases found so far
+  - https://jira.lsstcorp.org/browse/DM-7053 - Assemble a complete database with S13 DRP catalog
+  - https://jira.lsstcorp.org/browse/DM-7498 - Begin ingest of S13 DRP data to PDAC
 
 
 Introduction
 ============
 
-  - the task
-  - its scale
+   Here be a brief overview of the loading procedure, tools (GitHub), etc.
 
 Explain the environment
 =======================
 
-  - no write-enabled shared file system
   - read-only GPFS
   - explain how to start/stop/inspect Qserv
   - explain where to find log files
