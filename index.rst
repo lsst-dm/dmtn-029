@@ -51,7 +51,7 @@
 The Scope of the Document
 =========================
 
-  The note documents a parallel procedure and tools developed for loading the SDSS/Stripe82 catalogs
+  This technical note documents a parallel procedure and tools developed for loading the SDSS/Stripe82 catalogs
   into PDAC Qserv. The catalogs were produced in a course of the LSST Summer 2013 Data Challenge effort
   which is covered in details at:
 
